@@ -64,6 +64,7 @@ Default: 9px
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -184,7 +185,7 @@ body {
 }
 
 .btn--outline:hover,
-.btn--outline:visited {
+.btn--outline:active {
   background-color: #fdf2e9;
 
   /* Trick to add border inside*/
